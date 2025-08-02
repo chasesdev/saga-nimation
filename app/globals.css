@@ -1,0 +1,75 @@
+body {
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+    color: #ffffff;
+    display: flex;
+     align-items: center;
+     justify-content: center;
+    font-size: 24px;
+    font-weight: 400;
+    span {
+        margin-left: -17px;
+        z-index: -1;
+    }
+}
+
+svg {
+  display: block;
+
+}
+
+#triangle-path {
+  stroke-dasharray: 600;
+  stroke-dashoffset: 600;
+  stroke: #00ff88;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+#XMLID_226_ {
+  stroke-dasharray: 600;
+  stroke-dashoffset: 600;
+  stroke: #880e4f;
+  stroke-width: 2;
+  stroke-linejoin: square;
+  stroke-linecap: butt;
+}
+
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 35;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  51% {
+    stroke-dashoffset: 35;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash-v {
+  0% {
+    stroke-dashoffset: 25;
+  }
+  16.66% {
+    stroke-dashoffset: 0;
+  }
+  95% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: 25;
+  }
+}
