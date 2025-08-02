@@ -7,10 +7,10 @@ export default function Home() {
     const path1 = document.querySelector("#triangle-path") as SVGPathElement
     const path2 = document.querySelector("#triangle-path-inverted") as SVGPathElement
     if (path1) {
-      path1.style.animation = "dash 3s linear infinite"
+      path1.style.animation = "dash 6s linear infinite"
     }
     if (path2) {
-      path2.style.animation = "dash-v 9s linear infinite"
+      path2.style.animation = "dash-v 18s linear infinite"
     }
   }, [])
 
@@ -21,7 +21,7 @@ export default function Home() {
           <svg width="40" height="24" viewBox="-1 0 28 16" xmlns="http://www.w3.org/2000/svg">
             <g>
               <path
-                d="M6 2 L10 13 L2 13 Z"
+                d="M6 3 L10 14 L2 14 Z"
                 fill="none"
                 stroke="#00ff88"
                 strokeWidth="2"
@@ -31,7 +31,7 @@ export default function Home() {
               />
               <path
                 id="triangle-path"
-                d="M6 2 L10 13 L2 13 Z"
+                d="M6 3 L10 14 L2 14 Z"
                 fill="none"
                 stroke="#00ff88"
                 strokeWidth="2"
