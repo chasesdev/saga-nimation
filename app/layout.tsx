@@ -6,9 +6,25 @@ import type React from "react" // Import React
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "SVG Animation",
-  description: "SVG Animation using React and Next.js",
-    generator: 'v0.dev'
+  title: "Vantage",
+  description: "Vantage - A modern web application",
+  keywords: "vantage, web app, application",
+  authors: [{ name: "Vantage Team" }],
+  creator: "Vantage",
+  publisher: "Vantage",
+  robots: "index, follow",
+  openGraph: {
+    title: "Vantage",
+    description: "Vantage - A modern web application",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Vantage",
+    description: "Vantage - A modern web application",
+  },
+  viewport: "width=device-width, initial-scale=1",
+  themeColor: "#000000",
 }
 
 export default function RootLayout({
